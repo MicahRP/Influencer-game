@@ -9,8 +9,10 @@ public class DialogueManager : MonoBehaviour
 	public Text nameText;
 	public Text dialogueText;
 	
-	//NEW varable used to send dialogue box in + out
+	//NEW varable used to send dialogue box in + out, audio variable
 	public Animator dialogueAnimator;
+	public AudioSource typingsounds;
+
 	//keeps track of all sentences in current dialogue (can be changed)
 	private Queue<string> sentences; 
 
@@ -19,6 +21,7 @@ public class DialogueManager : MonoBehaviour
     {		
 			//create queue of strings called "sentences"
 			sentences = new Queue<string>();
+			typingsounds = GetComponent<AudioSource>();
     }
 		
 		//starts conversation of Dialogue class passed into function
@@ -58,16 +61,22 @@ public class DialogueManager : MonoBehaviour
 			StartCoroutine(TypeSentence(sentence));
 		}
 
-		//NEW added function to type word by word
+		//NEW added function to type word by word with typing sounds
 		IEnumerator TypeSentence (string sentence)
 		{	
+			typingsounds.Play();
+
 			//set as empty then loop through all characters in sentence(yeilds slow text)
 			dialogueText.text = "";
 			foreach (char letter in sentence.ToCharArray())
 			{
 				dialogueText.text += letter;
 				yield return null; yield return null; yield return null;
+				yield return null; yield return null; yield return null;
+
 			}
+			yield return new WaitForSeconds(1);
+			typingsounds.Stop();
 		}
 
 		void EndDialogue()
