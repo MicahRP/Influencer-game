@@ -5,9 +5,12 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {	
-	//these two variables used to display text later
+	//these two variables used to display text in boxes
 	public Text nameText;
 	public Text dialogueText;
+	
+	//NEW varable used to send dialogue box in + out
+	public Animator dialogueAnimator;
 	//keeps track of all sentences in current dialogue (can be changed)
 	private Queue<string> sentences; 
 
@@ -20,7 +23,10 @@ public class DialogueManager : MonoBehaviour
 		
 		//starts conversation of Dialogue class passed into function
 		public void StartDialogue (Dialogue dialogue)   
-		{
+		{	
+			//New for animation
+			dialogueAnimator.SetBool("IsOpen", true);
+
 			//set same the inputted nametag
 			nameText.text = dialogue.name;
 
@@ -46,12 +52,29 @@ public class DialogueManager : MonoBehaviour
 			}
 			
 			string sentence = sentences.Dequeue();
-			dialogueText.text = sentence;
+
+			//NEW changed to coroutines to show word by word
+			StopAllCoroutines();
+			StartCoroutine(TypeSentence(sentence));
+		}
+
+		//NEW added function to type word by word
+		IEnumerator TypeSentence (string sentence)
+		{	
+			//set as empty then loop through all characters in sentence(yeilds slow text)
+			dialogueText.text = "";
+			foreach (char letter in sentence.ToCharArray())
+			{
+				dialogueText.text += letter;
+				yield return null; yield return null; yield return null;
+			}
 		}
 
 		void EndDialogue()
 		{
 			Debug.Log("End of conversation.");
+			//NEW for animation (leaving screen)
+			dialogueAnimator.SetBool("IsOpen", false);
 		}
 
 }

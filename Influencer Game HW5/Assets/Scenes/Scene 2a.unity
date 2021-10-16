@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 260224964}
   - component: {fileID: 260224966}
   - component: {fileID: 260224965}
+  - component: {fileID: 260224967}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -285,6 +286,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260224963}
   m_CullTransparentMesh: 1
+--- !u!95 &260224967
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260224963}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 33f0510ab2ccda64b9a5615005a1e6d4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &264094608
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,6 +415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 264094610}
   dialogueText: {fileID: 1209255579}
+  dialogueAnimator: {fileID: 260224967}
 --- !u!4 &610977268
 Transform:
   m_ObjectHideFlags: 0
@@ -701,7 +722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Player Name
+    name: Username
     sentences:
     - I can't belive she had the audacity to call me out
     - I don't want to admit that I stole content...
@@ -820,12 +841,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Jason
+    name: Username24
     sentences:
     - I can't belive she had the audacity to call me out
     - I don't want to admit that I stole content...
     - I guess I should just deny it to keep my followers around. I can't let this
       go to waste.
+    - I went viral so I have to stick with it while I have the momentum.
+    - ... what do I post next? I want to keep people's attention... but I dont know
+      what I'm good at.
+    - How about... what I eat in a day? Or... morning coffee? No. That's lame.
 --- !u!4 &1044951989
 Transform:
   m_ObjectHideFlags: 0
