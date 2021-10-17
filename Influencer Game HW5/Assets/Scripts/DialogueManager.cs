@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {	
@@ -15,6 +16,11 @@ public class DialogueManager : MonoBehaviour
 
 	//keeps track of all sentences in current dialogue (can be changed)
 	private Queue<string> sentences; 
+        
+        //NEW !!! used to control visilbility of buttons
+        public GameObject startConvo;
+        public GameObject startConvo2;
+        public GameObject nextButton;
 
     // Start is called before the first frame update
     void Start()
@@ -22,11 +28,21 @@ public class DialogueManager : MonoBehaviour
 			//create queue of strings called "sentences"
 			sentences = new Queue<string>();
 			typingsounds = GetComponent<AudioSource>();
+                        
+                        //makes option 1 and option 2 visible when scene starts
+                        //makes next button invisible when scene starts
+                        startConvo.SetActive(true);
+                        startConvo2.SetActive(true);
+                        nextButton.SetActive(false);
     }
 		
 		//starts conversation of Dialogue class passed into function
 		public void StartDialogue (Dialogue dialogue)   
 		{	
+                        //makes buttons no longer visible when dialog begins
+                        //now players can't switch choices mid-scene
+                        startConvo.SetActive(false);
+                        startConvo2.SetActive(false);
 			//New for animation
 			dialogueAnimator.SetBool("IsOpen", true);
 
@@ -83,6 +99,9 @@ public class DialogueManager : MonoBehaviour
 			Debug.Log("End of conversation.");
 			//NEW for animation (leaving screen)
 			dialogueAnimator.SetBool("IsOpen", false);
+                        
+                        //when textbox is gone next button appears
+                        nextButton.SetActive(true);        
 		}
 
 }
