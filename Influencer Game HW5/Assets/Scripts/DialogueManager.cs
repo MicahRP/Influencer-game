@@ -47,7 +47,6 @@ public class DialogueManager : MonoBehaviour
 		
 		public void DisplayNextSentence()
 		{	
-			Debug.Log("YOU HAVE PRESSED THE BUTTON");
 			if (sentences.Count == 0)
 			{	
 				EndDialogue();
