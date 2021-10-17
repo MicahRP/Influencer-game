@@ -18,6 +18,7 @@ public class DialogueManager : MonoBehaviour
 	private Queue<string> sentences; 
         
         //NEW !!! used to control visilbility of buttons
+        public GameObject scenarioBox;
         public GameObject startConvo;
         public GameObject startConvo2;
         public GameObject nextButton;
@@ -31,6 +32,7 @@ public class DialogueManager : MonoBehaviour
                         
                         //makes option 1 and option 2 visible when scene starts
                         //makes next button invisible when scene starts
+                        scenarioBox.SetActive(true);
                         startConvo.SetActive(true);
                         startConvo2.SetActive(true);
                         nextButton.SetActive(false);
@@ -41,6 +43,7 @@ public class DialogueManager : MonoBehaviour
 		{	
                         //makes buttons no longer visible when dialog begins
                         //now players can't switch choices mid-scene
+                        scenarioBox.SetActive(false);
                         startConvo.SetActive(false);
                         startConvo2.SetActive(false);
 			//New for animation
