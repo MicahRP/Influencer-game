@@ -49,8 +49,15 @@ public class DialogueManager : MonoBehaviour
 			//New for animation
 			dialogueAnimator.SetBool("IsOpen", true);
 
-			//set same the inputted nametag
+			//set same the inputted nametag NEW if it is not the Username
+			if (nameText.text != "username"){
 			nameText.text = dialogue.name;
+			//DOES NOT RETURN THE USER'S IMPUT
+			Debug.Log (NameController.playerName);
+			} else {
+			//THIS DOES NOT WORK RN
+			nameText.text = NameController.playerName;
+			}
 
 			sentences.Clear();
 			
@@ -90,8 +97,6 @@ public class DialogueManager : MonoBehaviour
 			{
 				dialogueText.text += letter;
 				yield return null; yield return null; yield return null;
-				yield return null; yield return null; yield return null;
-
 			}
 			yield return new WaitForSeconds(1);
 			typingsounds.Stop();

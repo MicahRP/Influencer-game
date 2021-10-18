@@ -6,20 +6,20 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void OnButtonPress(){
-        Debug.Log("You have pressed the button");
+   public void StartSampleScene(){
         SceneManager.LoadScene("SampleScene");
+    }
+
+   public void StartPickUsername(){
+        SceneManager.LoadScene("PickUsername");
+    }
+
+   public void StartScene2a(){
+        SceneManager.LoadScene("Scene2a");
+    }
+
+   public void StartScene2b(){
+        SceneManager.LoadScene("Scene2b");
     }
 }
