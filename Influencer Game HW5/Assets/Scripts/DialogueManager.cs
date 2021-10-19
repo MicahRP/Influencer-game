@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
 	//these two variables used to display text in boxes
 	public Text nameText;
 	public Text dialogueText;
-	
+	//public GameObject savedName;
 	//NEW varable used to send dialogue box in + out, audio variable
 	public Animator dialogueAnimator;
 	public AudioSource typingsounds;
@@ -25,7 +25,7 @@ public class DialogueManager : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {		
+    {		     
 			//create queue of strings called "sentences"
 			sentences = new Queue<string>();
 			typingsounds = GetComponent<AudioSource>();
@@ -41,6 +41,8 @@ public class DialogueManager : MonoBehaviour
 		//starts conversation of Dialogue class passed into function
 		public void StartDialogue (Dialogue dialogue)   
 		{	
+                        
+                        nameText.text = NameController.playerName;
                         //makes buttons no longer visible when dialog begins
                         //now players can't switch choices mid-scene
                         scenarioBox.SetActive(false);
@@ -50,14 +52,14 @@ public class DialogueManager : MonoBehaviour
 			dialogueAnimator.SetBool("IsOpen", true);
 
 			//set same the inputted nametag NEW if it is not the Username
-			if (nameText.text != "username"){
-			nameText.text = dialogue.name;
-			//DOES NOT RETURN THE USER'S IMPUT
-			Debug.Log (NameController.playerName);
-			} else {
-			//THIS DOES NOT WORK RN
-			nameText.text = NameController.playerName;
-			}
+			// if (nameText.text != "username"){
+			// nameText.text = dialogue.name;
+			// //DOES NOT RETURN THE USER'S IMPUT
+			// Debug.Log (NameController.playerName);
+			// } else {
+			// //THIS DOES NOT WORK RN
+			// nameText.text = NameController.playerName;
+			// }
 
 			sentences.Clear();
 			

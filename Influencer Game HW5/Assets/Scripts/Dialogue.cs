@@ -6,7 +6,7 @@ using UnityEngine;
 public class Dialogue{
 			
 		//allows you to choose name of character and number of sentences of dialogue
-		public string name;
+		//public static string name = NameController.playerName;
 
 		[TextArea (3,10)]
 		public string[] sentences;
