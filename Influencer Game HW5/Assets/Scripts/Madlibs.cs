@@ -11,10 +11,10 @@ public class Madlibs : MonoBehaviour
         public GameObject textBox;
         
         //extra strings to write around the inputted words **CHANGE**
-        string part1 = "blah blah blah ";
-        string part2 = " blah ";
-        string part3 = "  blah blah ";
-        string part4 = " blah blah blah blah";
+        public string part1;
+        public string part2; 
+        public string part3;
+        public string part4;
         
 
     void Start()
