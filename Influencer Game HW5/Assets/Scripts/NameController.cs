@@ -8,6 +8,7 @@ public class NameController : MonoBehaviour
 {
     public InputField InputFieldName;
     public static string playerName;
+	public GameObject doneButton;
     public Text NameboxText;
 
 
@@ -16,12 +17,14 @@ public class NameController : MonoBehaviour
         
         playerName = InputFieldName.text;
         NameboxText.text = playerName;
-        // SceneManager.LoadScene("Scene 2a");
+		doneButton.SetActive(false);
 
 
     }
 
     void start() {
+
+		doneButton.SetActive(true);
         NameboxText.text = playerName;
     }
 }

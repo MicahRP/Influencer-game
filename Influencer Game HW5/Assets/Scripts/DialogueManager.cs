@@ -9,6 +9,7 @@ public class DialogueManager : MonoBehaviour
 	//these two variables used to display text in boxes
 	public Text nameText;
 	public Text dialogueText;
+
 	//public GameObject savedName;
 	//NEW varable used to send dialogue box in + out, audio variable
 	public Animator dialogueAnimator;
