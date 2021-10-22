@@ -42,7 +42,6 @@ public class DialogueManager : MonoBehaviour
 		//starts conversation of Dialogue class passed into function
 		public void StartDialogue (Dialogue dialogue)   
 		{	
-                        
                         nameText.text = NameController.playerName;
                         //makes buttons no longer visible when dialog begins
                         //now players can't switch choices mid-scene

@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -195.75122, y: 103.74133}
-  m_SizeDelta: {x: 116.2937, y: 30.4582}
+  m_AnchoredPosition: {x: -190, y: 65}
+  m_SizeDelta: {x: 110, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &27309740
 MonoBehaviour:
@@ -232,7 +232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 2.1376}
+  m_AnchoredPosition: {x: 0, y: 2.1376038}
   m_SizeDelta: {x: 0, y: -4.2751}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &82714136
@@ -268,7 +268,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choose A
+  m_Text: IMAGE A
 --- !u!222 &82714137
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -315,8 +315,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.353306, y: -110.63411}
-  m_SizeDelta: {x: 507.8, y: 150.4389}
+  m_AnchoredPosition: {x: 0, y: -150}
+  m_SizeDelta: {x: 500, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &347588142
 MonoBehaviour:
@@ -404,7 +404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -613,7 +613,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -195, y: 103}
+  m_AnchoredPosition: {x: -190, y: 60}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &774519426
@@ -965,7 +965,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 2.1376}
+  m_AnchoredPosition: {x: 0, y: 2.1376038}
   m_SizeDelta: {x: 0, y: -4.2751}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1072268839
@@ -1001,7 +1001,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choose B
+  m_Text: IMAGE B
 --- !u!222 &1072268840
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1036,11 +1036,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1171173363}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c50472e8b2bb44de6a51d75ed81257a4, type: 3}
+  m_Script: {fileID: 11500000, guid: bd7b197237ec86d47a6094cc74c622aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: {fileID: 661791927}
   dialogueText: {fileID: 1426665131}
+  dialogueAnimator: {fileID: 0}
+  typingsounds: {fileID: 0}
+  scenarioBox: {fileID: 0}
+  startConvo: {fileID: 1855044403}
+  startConvo2: {fileID: 1378893887}
+  nextButton: {fileID: 0}
 --- !u!4 &1171173365
 Transform:
   m_ObjectHideFlags: 0
@@ -1064,7 +1070,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1312979650}
-  - component: {fileID: 1312979649}
   m_Layer: 0
   m_Name: DialogueTrigger
   m_TagString: Untagged
@@ -1072,28 +1077,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1312979649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312979648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b4deb6b1e5c413393fe278a573cc42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  branchdialogue:
-    name: Player
-    Asentences:
-    - choice a
-    - good choice
-    - have a cookie
-    Bsentences:
-    - bad choice
-    - you should b punished >:(
-    - good riddance
 --- !u!4 &1312979650
 Transform:
   m_ObjectHideFlags: 0
@@ -1145,8 +1128,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 55, y: 43.624325}
-  m_SizeDelta: {x: 105.0779, y: 25.0593}
+  m_AnchoredPosition: {x: 150, y: 40}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1378893889
 MonoBehaviour:
@@ -1208,7 +1191,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1312979649}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BranchDialogueTrigger, Assembly-CSharp
         m_MethodName: TriggerDialogueB
         m_Mode: 1
@@ -1334,8 +1317,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.3834, y: -1.4405}
-  m_SizeDelta: {x: 480.0333, y: 127.5107}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 490, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1855044403
 GameObject:
@@ -1374,8 +1357,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -55, y: 43.624325}
-  m_SizeDelta: {x: 105.0779, y: 25.0593}
+  m_AnchoredPosition: {x: -150, y: 40}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1855044405
 MonoBehaviour:
@@ -1437,7 +1420,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1312979649}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BranchDialogueTrigger, Assembly-CSharp
         m_MethodName: TriggerDialogueA
         m_Mode: 1
@@ -1571,7 +1554,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1171173364}
-        m_TargetAssemblyTypeName: BranchDialogueManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
         m_MethodName: DisplayNextSentence
         m_Mode: 1
         m_Arguments:

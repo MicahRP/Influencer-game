@@ -22,4 +22,5 @@ public class SceneController : MonoBehaviour
    public void StartScene2b(){
         SceneManager.LoadScene("Scene2b");
     }
+    
 }
