@@ -320,7 +320,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter an emotion
+  m_Text: number
 --- !u!222 &391360373
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -482,7 +482,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter an adjective
+  m_Text: name of store
 --- !u!222 &547109754
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -539,7 +539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -582,8 +582,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1124931816}
   - {fileID: 2028425933}
+  - {fileID: 1124931816}
   - {fileID: 1303486555}
   - {fileID: 1524313115}
   - {fileID: 1032634714}
@@ -826,8 +826,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -145.33974, y: 34.1398}
-  m_SizeDelta: {x: 167.8005, y: 184.9204}
+  m_AnchoredPosition: {x: -126, y: 35}
+  m_SizeDelta: {x: 160, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1083007249
 GameObject:
@@ -899,7 +899,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter a verb
+  m_Text: noun
 --- !u!222 &1083007252
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1020,7 +1020,7 @@ RectTransform:
   - {fileID: 1083007250}
   - {fileID: 1179843245}
   m_Father: {fileID: 561342780}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1194,10 +1194,10 @@ MonoBehaviour:
   displayText: {fileID: 601774606}
   doneButton: {fileID: 1524313114}
   textBox: {fileID: 1032634711}
-  part1: 'hey this is part one of the text '
-  part2: ' is a stupid emotion '
-  part3: ' horse '
-  part4: ' off a cliff rn'
+  part1: should i post a $
+  part2: ' '
+  part3: ' haul from '
+  part4: ' this weekend?????'
 --- !u!1 &1160987315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1834,7 +1834,7 @@ RectTransform:
   - {fileID: 547109752}
   - {fileID: 1095792809}
   m_Father: {fileID: 561342780}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
