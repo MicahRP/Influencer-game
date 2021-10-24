@@ -409,7 +409,7 @@ MonoBehaviour:
   displayText: {fileID: 601774606}
   doneButton: {fileID: 1524313114}
   textBox: {fileID: 1032634711}
-  part1: should i post a $
+  part1: Should I post a $
   part2: ' '
   part3: ' haul from '
   part4: ' this weekend?????'

@@ -592,16 +592,20 @@ PrefabInstance:
       value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5568774090593373333, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 182.2612
+      objectReference: {fileID: 0}
+    - target: {fileID: 5568774090593373333, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 207.2921
+      value: 255.371
       objectReference: {fileID: 0}
     - target: {fileID: 5568774090593373333, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.00000059605
+      value: -2.1872
       objectReference: {fileID: 0}
     - target: {fileID: 5568774090593373333, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 6.6517
+      value: 3.9605
       objectReference: {fileID: 0}
     - target: {fileID: 5568774090593373335, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
       propertyPath: m_FontData.m_Font
