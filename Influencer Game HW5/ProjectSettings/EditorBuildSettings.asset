@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene2b.unity
     guid: 39a1143b121374306959fe9ffb5f0b25
+  - enabled: 1
+    path: Assets/Scenes/PostViralVid.unity
+    guid: 1436a758e3fec684087840d4cf5b7a90
+  - enabled: 1
+    path: Assets/Scenes/FirstPost.unity
+    guid: 1822623b97e60448cb3625fafbd60b48
   m_configObjects: {}
