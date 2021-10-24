@@ -237,8 +237,8 @@ MonoBehaviour:
   dialogueAnimator: {fileID: 434791572}
   typingsounds: {fileID: 104608278}
   scenarioBox: {fileID: 865532623}
-  startConvo: {fileID: 1987100650}
-  startConvo2: {fileID: 1992954991}
+  startConvo: {fileID: 998301853}
+  startConvo2: {fileID: 816831021}
   nextButton: {fileID: 2057792029}
 --- !u!82 &104608278
 AudioSource:
@@ -1865,8 +1865,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1164106942}
-  - component: {fileID: 1164106941}
   - component: {fileID: 1164106940}
+  - component: {fileID: 1164106941}
   m_Layer: 0
   m_Name: DialogueManager (1)
   m_TagString: Untagged
@@ -1979,17 +1979,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1164106939}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd7b197237ec86d47a6094cc74c622aa, type: 3}
+  m_Script: {fileID: 11500000, guid: d5bd9029e2f2e44bea1e87faac134bc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: {fileID: 1586367926}
   dialogueText: {fileID: 100496033}
   dialogueAnimator: {fileID: 434791572}
-  typingsounds: {fileID: 1164106940}
+  typingsounds: {fileID: 104608278}
   scenarioBox: {fileID: 865532623}
-  startConvo: {fileID: 998301853}
-  startConvo2: {fileID: 816831021}
-  nextButton: {fileID: 751516219}
+  startConvo: {fileID: 1987100650}
+  startConvo2: {fileID: 1992954991}
+  startConvo3: {fileID: 998301853}
+  startConvo4: {fileID: 816831021}
+  nextButton: {fileID: 723080332}
 --- !u!4 &1164106942
 Transform:
   m_ObjectHideFlags: 0

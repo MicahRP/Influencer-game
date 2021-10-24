@@ -22,6 +22,8 @@ public class DialogueManager2 : MonoBehaviour
         public GameObject scenarioBox;
         public GameObject startConvo;
         public GameObject startConvo2;
+        public GameObject startConvo3;
+        public GameObject startConvo4;
         public GameObject nextButton;
 
     // Start is called before the first frame update
@@ -36,6 +38,8 @@ public class DialogueManager2 : MonoBehaviour
                         scenarioBox.SetActive(true);
                         startConvo.SetActive(true);
                         startConvo2.SetActive(true);
+                        startConvo3.SetActive(false);
+                        startConvo4.SetActive(false);
                         nextButton.SetActive(false);
     }
 		
