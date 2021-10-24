@@ -1044,6 +1044,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1786367078}
+        m_TargetAssemblyTypeName: FollowerController, Assembly-CSharp
+        m_MethodName: imageA
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &810488388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1064,8 +1076,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 1baebf7a9ed1f9a4499e015bb4151f78, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1297,7 +1309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - omg tysm!! i think i will post [CONTENTS OF IMAGE A]
+    - omg tysm!! i think i will post a pic of my cute dog!
     - have any caption ideas lol
 --- !u!4 &1044951989
 Transform:
@@ -1490,7 +1502,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142763157}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
@@ -1525,6 +1537,119 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142763157}
   m_CullTransparentMesh: 1
+--- !u!1001 &1145529365
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1454554891}
+    m_Modifications:
+    - target: {fileID: 8816110029890586722, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_Name
+      value: FollowerCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 139.1504
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 28.8341
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 302.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 169.556
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110030480008045, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 136.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110030480008045, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 29.068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110030480008045, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.5636
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816110030480008045, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.11693
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
 --- !u!1 &1153192938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,6 +1905,7 @@ RectTransform:
   - {fileID: 1719135518}
   - {fileID: 270631738}
   - {fileID: 1070578598}
+  - {fileID: 1786367077}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1998,7 +2124,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609150379}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
@@ -2064,7 +2190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - thank u!!! i'm gonna post [CONTENTS OF IMAGE B]
+    - thank u!!! i'm gonna post all my new accessories!
     - now I just need to write a caption (gasp emoji)
 --- !u!4 &1678219514
 Transform:
@@ -2190,6 +2316,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1786367078}
+        m_TargetAssemblyTypeName: FollowerController, Assembly-CSharp
+        m_MethodName: imageB
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1719135521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2210,8 +2348,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 482075c8ed914514da3de5771677c57f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2307,6 +2445,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762104174}
   m_CullTransparentMesh: 1
+--- !u!224 &1786367077 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8816110029890586723, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+  m_PrefabInstance: {fileID: 1145529365}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1786367078 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8816110029890586727, guid: ef20150bc5c8a1e44af646b1b6ebf01d, type: 3}
+  m_PrefabInstance: {fileID: 1145529365}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb1dc4d9959c6c146a4430d7f39fa276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1833196022
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,6 +2471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1833196024}
   - component: {fileID: 1833196023}
+  - component: {fileID: 1833196025}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -2350,6 +2505,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1833196025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833196022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 981805928a4f7dd4ba27383e183e3941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1852684526
 GameObject:
   m_ObjectHideFlags: 0

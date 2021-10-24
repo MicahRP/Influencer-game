@@ -10,6 +10,9 @@ public class FollowerController : MonoBehaviour
     public static float followerNum;
     public static bool isFalling;
     public Text followerText;
+    
+    //Related to image
+    public static char imageChoice;
 
     //On start
     void Start() {
@@ -36,5 +39,13 @@ public class FollowerController : MonoBehaviour
         }
         followerCount = followerNum + "k followers";
         followerText.text = followerCount;
+    }
+
+    //Set which image choic
+    public void imageA() {
+        imageChoice = 'A';
+    }
+    public void imageB() {
+        imageChoice = 'B';
     }
 }
