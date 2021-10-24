@@ -815,7 +815,6 @@ GameObject:
   - component: {fileID: 810488389}
   - component: {fileID: 810488388}
   - component: {fileID: 810488387}
-  - component: {fileID: 810488390}
   m_Layer: 5
   m_Name: StartConvo
   m_TagString: Untagged
@@ -937,24 +936,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810488385}
   m_CullTransparentMesh: 1
---- !u!114 &810488390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 810488385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd4caf2f55714eb47980bf3987b018ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - I can't belive she had the audacity to call me out
-    - I don't want to admit that I stole content...
-    - I guess I should just deny it to keep my followers around. I can't let this
-      go to waste.
 --- !u!1 &830853609
 GameObject:
   m_ObjectHideFlags: 0

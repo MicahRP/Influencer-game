@@ -236,7 +236,7 @@ MonoBehaviour:
   dialogueText: {fileID: 100496033}
   dialogueAnimator: {fileID: 434791572}
   typingsounds: {fileID: 104608278}
-  scenarioBox: {fileID: 0}
+  scenarioBox: {fileID: 865532623}
   startConvo: {fileID: 1987100650}
   startConvo2: {fileID: 1992954991}
   nextButton: {fileID: 2057792029}
