@@ -26,4 +26,8 @@ public class SceneController : MonoBehaviour
     public void StartPostViralVid(){
         SceneManager.LoadScene("PostViralVid");
     }
+
+    public void StartFirstPost(){
+        SceneManager.LoadScene("FirstPost");
+    }
 }
