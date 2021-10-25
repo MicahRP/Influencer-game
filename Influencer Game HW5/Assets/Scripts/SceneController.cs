@@ -53,4 +53,8 @@ public class SceneController : MonoBehaviour
    public void StartMadlibs3(){
         SceneManager.LoadScene("Madlibs3");
     }
+
+   public void StartAfterMadLibs(){
+        SceneManager.LoadScene("AfterMadLibs");
+    }
 }
