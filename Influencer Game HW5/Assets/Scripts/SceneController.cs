@@ -30,4 +30,27 @@ public class SceneController : MonoBehaviour
     public void StartFirstPost(){
         SceneManager.LoadScene("FirstPost");
     }
+
+   public void AfterViralPost(){
+        SceneManager.LoadScene("AfterViralPost");
+    }
+
+   public void Aftermadlibs2(){
+        SceneManager.LoadScene("Aftermadlibs2");
+    }
+
+   public void StartCommentB4Madlibs(){
+        SceneManager.LoadScene("CommentB4Madlibs");
+    }
+
+   public void StartMadLibs(){
+        SceneManager.LoadScene("MadLibs");
+    }
+	public void StartMadlibs2(){
+        SceneManager.LoadScene("Madlibs2");
+    }
+
+   public void StartMadlibs3(){
+        SceneManager.LoadScene("Madlibs3");
+    }
 }

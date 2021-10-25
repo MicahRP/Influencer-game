@@ -545,6 +545,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1143143821}
+        m_TargetAssemblyTypeName: ShowHidden, Assembly-CSharp
+        m_MethodName: ShowObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &195452903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -615,8 +627,8 @@ MonoBehaviour:
   dialogue:
     sentences:
     - Now that I've made my username I'm ready to make my first post.
-    - 'I don''t feel like shooting interesting right now so I might as well post
-      something from my camera roll... '
+    - 'I don''t feel like filming anything interesting right now so I might as well
+      post something from my camera roll... '
     - 'I GOT IT! How about that video of me on that table at that sick party? '
     - 'OR... when my buddy caught me off guard and I dropped my sister''s birthday
       cake! '
@@ -1448,6 +1460,7 @@ GameObject:
   - component: {fileID: 1143143820}
   - component: {fileID: 1143143819}
   - component: {fileID: 1143143818}
+  - component: {fileID: 1143143821}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -1488,7 +1501,7 @@ Animator:
   m_GameObject: {fileID: 1143143816}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 33f0510ab2ccda64b9a5615005a1e6d4, type: 2}
+  m_Controller: {fileID: 9100000, guid: a20d24c90f8a01c4b9ce0504b851f980, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1535,6 +1548,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143143816}
   m_CullTransparentMesh: 1
+--- !u!114 &1143143821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143143816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70e950c31d3b8534faed3a73c5455c6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameobject: {fileID: 1143143816}
 --- !u!1 &1173279568
 GameObject:
   m_ObjectHideFlags: 0

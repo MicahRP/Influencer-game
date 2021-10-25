@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 260224966}
   - component: {fileID: 260224965}
   - component: {fileID: 260224967}
+  - component: {fileID: 260224968}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -162,8 +163,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -165, y: 10}
-  m_SizeDelta: {x: 150, y: 175}
+  m_AnchoredPosition: {x: -165.00002, y: 10}
+  m_SizeDelta: {x: 144.25, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &260224965
 MonoBehaviour:
@@ -222,6 +223,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &260224968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260224963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70e950c31d3b8534faed3a73c5455c6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameobject: {fileID: 260224963}
 --- !u!1 &264094608
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +306,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: username
+  m_Text: 
 --- !u!222 &264094611
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1361,8 +1375,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -160, y: 0}
-  m_SizeDelta: {x: 160, y: 60}
+  m_AnchoredPosition: {x: -165.00002, y: 0}
+  m_SizeDelta: {x: 150, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1070578599
 MonoBehaviour:
@@ -1411,6 +1425,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2082563264}
         m_TargetAssemblyTypeName: IntroTrigger, Assembly-CSharp
         m_MethodName: TriggerIntro
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 260224968}
+        m_TargetAssemblyTypeName: ShowHidden, Assembly-CSharp
+        m_MethodName: ShowObject
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
