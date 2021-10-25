@@ -18,6 +18,7 @@ public class FollowerController : MonoBehaviour
     void Start() {
         followerCount = FollowerController.followerNum + "k followers";
         followerText.text = followerCount;
+        imageChoice = 'B';
     }
 
     //Initialize a follower count of 0
@@ -29,7 +30,10 @@ public class FollowerController : MonoBehaviour
     }
 
     //Updates follower count
-    public void upadateFollowers(float num) {
+    public void updateFollowers(float num) {
+        if(imageChoice == 'A'){
+            num += 5;
+        }
         if (isFalling == true) {
             num = 0 - num;
         }
@@ -39,6 +43,26 @@ public class FollowerController : MonoBehaviour
         }
         followerCount = followerNum + "k followers";
         followerText.text = followerCount;
+    }
+    
+    public void randUpdateFollowers() {
+        float random = (Random.Range(0, 100))/10;
+        if(imageChoice == 'A'){
+                random += 5;
+        }
+        if (isFalling == true) {
+            random = 0 - random;
+        }
+        followerNum = followerNum + random;
+        if (followerNum < 0) {
+            followerNum = 0;
+        }
+        followerCount = followerNum + "k followers";
+        followerText.text = followerCount;
+    }
+    
+    public void setFalling(){
+          isFalling = true;
     }
 
     //Set which image choic

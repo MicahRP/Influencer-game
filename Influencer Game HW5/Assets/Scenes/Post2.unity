@@ -1622,8 +1622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - Yo i saw ur tweet lmao r ya gonna do the haul? seems kinda cool ngl ur poppin
-      off gurl!
+    - 'Yo i saw ur tweet lmao r ya gonna do the haul? seems kinda cool ngl '
     - Also lets hang sometime luv ya ^-^
 --- !u!4 &1050907918
 Transform:
@@ -1952,6 +1951,18 @@ MonoBehaviour:
       - m_Target: {fileID: 633723765}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: StartCommentB4Madlibs
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2123407052}
+        m_TargetAssemblyTypeName: FollowerController, Assembly-CSharp
+        m_MethodName: randUpdateFollowers
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
