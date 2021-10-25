@@ -154,9 +154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - of course u would say that. fugly
-    - i will destroy ur career
-    - you made a mistake and u will regret this >:O
+    - hehehe i'm so excited for u babe!!!
+    - but i wouldn't say ur famous......... all u did was post a video ...
 --- !u!4 &7482753
 Transform:
   m_ObjectHideFlags: 0
@@ -299,8 +298,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 2.1376}
-  m_SizeDelta: {x: 0, y: -4.2751}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -2, y: -2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &194070191
 MonoBehaviour:
@@ -324,18 +323,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b5ca1b0789440b4459b5d6965849e395, type: 3}
-    m_FontSize: 14
+    m_FontSize: 11
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: too bad lol
+  m_Text: lol ik? being famous is so weird :0
 --- !u!222 &194070192
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1438,8 +1437,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 2.1376}
-  m_SizeDelta: {x: 0, y: -4.2751}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -2, y: -2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1148243123
 MonoBehaviour:
@@ -1463,18 +1462,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b5ca1b0789440b4459b5d6965849e395, type: 3}
-    m_FontSize: 14
+    m_FontSize: 11
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: i'm sorry :(
+  m_Text: i'm not famous enough yet
 --- !u!222 &1148243124
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2021,9 +2020,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - ur ridiculous.... pitying me. i dont want ur apology
-    - i want the fame too. you stole this from me >:(
-    - i'm going to take back what i deserve
+    - omg..... you already have so many??? do u really need to keep doing this??
+    - i didn't think you would be this desparate for more followers this soon
 --- !u!4 &1428460250
 Transform:
   m_ObjectHideFlags: 0
@@ -2655,8 +2653,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'MESSAGE: hey. i was the one 2 tell u to post that vid...... why wont u
-    share the credit?????? i feel like u got all the fame :(((('
+  m_Text: HEY!!!!! ur account is getting so big omg. dont let it get the fame to
+    ur head XD
 --- !u!222 &1799171992
 CanvasRenderer:
   m_ObjectHideFlags: 0
