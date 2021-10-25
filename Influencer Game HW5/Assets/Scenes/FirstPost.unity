@@ -398,9 +398,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1833196023}
-        m_TargetAssemblyTypeName: SceneController2a, Assembly-CSharp
-        m_MethodName: OnButtonPress
+      - m_Target: {fileID: 1833196025}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: StartScene2a
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1324,7 +1324,8 @@ MonoBehaviour:
   dialogue:
     sentences:
     - omg tysm!! i think i will post a pic of my cute dog!
-    - have any caption ideas lol
+    - I am so excited about this ahhh GIIIIIRL we shoudl brainstorm some epic posts
+    - imma caption it "BARK XD" do u think it's cute and ironic enuf????
 --- !u!4 &1044951989
 Transform:
   m_ObjectHideFlags: 0
@@ -1746,7 +1747,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: next <3
+  m_Text: NEXT
 --- !u!222 &1153192941
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2217,7 +2218,8 @@ MonoBehaviour:
   dialogue:
     sentences:
     - thank u!!! i'm gonna post all my new accessories!
-    - now I just need to write a caption (gasp emoji)
+    - now I just need to write a caption (gasp emoji) ah i think ill go with "woke
+      up and chose swag" what do ya think?
 --- !u!4 &1678219514
 Transform:
   m_ObjectHideFlags: 0

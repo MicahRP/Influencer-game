@@ -1195,8 +1195,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1367446330}
-        m_TargetAssemblyTypeName: SceneController2a, Assembly-CSharp
-        m_MethodName: OnButtonPress
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: StartDialogue1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1896,7 +1896,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1367446329}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 540fddfbbbab14bd9a0def0e14b646b4, type: 3}
+  m_Script: {fileID: 11500000, guid: 981805928a4f7dd4ba27383e183e3941, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1367446331

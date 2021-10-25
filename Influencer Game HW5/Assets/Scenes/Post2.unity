@@ -1949,9 +1949,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 633723764}
-        m_TargetAssemblyTypeName: SceneController2a, Assembly-CSharp
-        m_MethodName: OnButtonPress
+      - m_Target: {fileID: 633723765}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: StartCommentB4Madlibs
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

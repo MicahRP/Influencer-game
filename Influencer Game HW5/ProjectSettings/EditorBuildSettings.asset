@@ -50,4 +50,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Madlibs3.unity
     guid: cae0e8ebd0b59ff46936d18256ce6fd9
+  - enabled: 1
+    path: Assets/Scenes/Post2.unity
+    guid: b291a2fccac0de04796b079f73d118b0
+  - enabled: 1
+    path: Assets/Scenes/Post3.unity
+    guid: 155634ae268f1b3419762380ab1a7c67
+  - enabled: 1
+    path: Assets/Scenes/ROASTING2.unity
+    guid: d843dc8cf88d042b6a66d6f131a44b04
+  - enabled: 1
+    path: Assets/Scenes/CONVO2.unity
+    guid: 94874e40aad954b58baa7ccf904fd207
+  - enabled: 1
+    path: Assets/Scenes/Dialogue1.unity
+    guid: d5ebad59119490f49baa4f8525a7e0ae
+  - enabled: 1
+    path: Assets/Scenes/TheEnd.unity
+    guid: cce95dd15909e7241925f046413b17a2
   m_configObjects: {}

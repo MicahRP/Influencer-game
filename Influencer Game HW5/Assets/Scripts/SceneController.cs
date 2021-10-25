@@ -57,4 +57,28 @@ public class SceneController : MonoBehaviour
    public void StartAfterMadLibs(){
         SceneManager.LoadScene("AfterMadLibs");
     }
+
+   public void StartCONVO2(){
+        SceneManager.LoadScene("CONVO2");
+    }
+	public void StartDialogue1(){
+        SceneManager.LoadScene("Dialogue1");
+    }
+
+   public void StartPost2(){
+        SceneManager.LoadScene("Post2");
+    }
+
+   public void StartPost3(){
+        SceneManager.LoadScene("Post3");
+    }
+
+   public void StartROASTING2(){
+        SceneManager.LoadScene("ROASTING2");
+    }
+
+   public void TheEnd(){
+        SceneManager.LoadScene("TheEnd");
+    }
+
 }

@@ -693,7 +693,7 @@ GameObject:
   - component: {fileID: 828662905}
   - component: {fileID: 828662904}
   m_Layer: 5
-  m_Name: Next(StartMadLibs)
+  m_Name: Next(post2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -745,7 +745,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 384916617}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: StartMadLibs
+        m_MethodName: StartPost2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
