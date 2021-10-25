@@ -256,10 +256,18 @@ PrefabInstance:
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1453965463}
+    - target: {fileID: 5568774089024843315, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b5ca1b0789440b4459b5d6965849e395, type: 3}
     - target: {fileID: 5568774089036052362, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
       propertyPath: m_Text
       value: Adjective
       objectReference: {fileID: 0}
+    - target: {fileID: 5568774089075272759, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b5ca1b0789440b4459b5d6965849e395, type: 3}
     - target: {fileID: 5568774089219798725, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -300,6 +308,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: POST
       objectReference: {fileID: 0}
+    - target: {fileID: 5568774089616099160, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b5ca1b0789440b4459b5d6965849e395, type: 3}
     - target: {fileID: 5568774089969927255, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -320,6 +332,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: .
       objectReference: {fileID: 0}
+    - target: {fileID: 5568774090593373335, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b5ca1b0789440b4459b5d6965849e395, type: 3}
     - target: {fileID: 5568774090593373335, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 1
@@ -440,6 +456,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5568774091107287829, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b5ca1b0789440b4459b5d6965849e395, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ff9cb60431fe144cbe43c94180ea0b1, type: 3}
 --- !u!1 &718029154 stripped
@@ -598,7 +618,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: b5ca1b0789440b4459b5d6965849e395, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
