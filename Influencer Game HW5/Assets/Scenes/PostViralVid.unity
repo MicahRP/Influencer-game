@@ -2695,7 +2695,7 @@ MonoBehaviour:
   typingsounds: {fileID: 2062213655}
   scenarioBox: {fileID: 1773275905}
   startConvo: {fileID: 496905718}
-  startConvo2: {fileID: 994784955}
+  startConvo2: {fileID: 496905718}
   nextButton: {fileID: 802517077}
 --- !u!82 &2062213655
 AudioSource:

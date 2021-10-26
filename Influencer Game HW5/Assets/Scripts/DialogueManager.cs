@@ -98,7 +98,7 @@ public class DialogueManager : MonoBehaviour
 			foreach (char letter in sentence.ToCharArray())
 			{
 				dialogueText.text += letter;
-				yield return null; yield return null; yield return null;
+				yield return null; yield return null; 
 			}
 			yield return new WaitForSeconds(1);
 			typingsounds.Stop();
