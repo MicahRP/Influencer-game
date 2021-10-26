@@ -54,6 +54,7 @@ public class IntroTextManager : MonoBehaviour
     {	
             if (sentences.Count == 0)
             {	
+                    EndIntro();
                     return;
             }
             
@@ -77,6 +78,16 @@ public class IntroTextManager : MonoBehaviour
             }
             yield return new WaitForSeconds(1);
             typingsounds.Stop();
+    }
+    
+    public void EndIntro()
+    {
+            Debug.Log("End of conversation.");
+            //NEW for animation (leaving screen)
+            //dialogueAnimator.SetBool("IsOpen", false);
+            sentences.Clear();
+            //when textbox is gone next button appears
+            //nextButton.SetActive(true);        
     }
     
     

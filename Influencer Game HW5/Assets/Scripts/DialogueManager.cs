@@ -104,7 +104,7 @@ public class DialogueManager : MonoBehaviour
 			typingsounds.Stop();
 		}
 
-		void EndDialogue()
+		public void EndDialogue()
 		{
 			Debug.Log("End of conversation.");
 			//NEW for animation (leaving screen)
